@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    background: whitesmoke;
+    box-shadow: 20px 20px 20px rgb(57, 90, 117);
+    opacity: 0.8;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.heading {
+    display: flex;
+}
+
+.header {
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #2E3192;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    color: #2E3192;
+    width: 80%;
+    height: 80px;
+    background: #eaeaea;
+}
+
+.user {
+    height: 50px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    margin: 10px;
+}
+
+.t {
+    margin: 5px;
+    font-weight: 700;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 40px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #127fbe;
+    border-radius: 20px;
+    border: none;
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+.bottom {
+    color: #2E3192;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.img {
+    height: 25px;
+    margin-top: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gray {
+    background: #127fbe;
+    color: #eaeaea;
+}
+
+.header:hover {
+    background-color: #127fbe;
+    color: #eaeaea;
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 60%;
+        padding: 15px;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .submit-container {
+        width: 60%;
+    }
+
+}
+
+@media(max-width:480px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 900;
+    box-shadow: 10px 10px 10px grey;
+}
